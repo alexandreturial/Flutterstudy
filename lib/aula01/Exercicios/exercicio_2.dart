@@ -5,7 +5,7 @@ class Exercicio2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-          padding: EdgeInsets.symmetric(vertical: 55, horizontal: 15),
+          padding: EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.08, horizontal: MediaQuery.of(context).size.width * 0.08),
           child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.start,
@@ -35,7 +35,7 @@ class Exercicio2 extends StatelessWidget {
                         child: Column(
                           children: [
                             Container(
-                                height: 120,
+                                height: MediaQuery.of(context).size.height * 0.09,
                                 child: Container(
                                 color: Colors.blue
                               ),
@@ -64,7 +64,7 @@ class Exercicio2 extends StatelessWidget {
               )
             ),
             Container(
-              height: 150,
+              height: MediaQuery.of(context).size.height * 0.2,
               color: Colors.white,
               child: Column(
                 children: [
@@ -72,19 +72,19 @@ class Exercicio2 extends StatelessWidget {
                    children: [
                     Expanded(
                       child: Container(
-                        height: 75,
+                        height: MediaQuery.of(context).size.height * 0.1,
                         color: Colors.pink
                       )
                     ),
                     Container(
-                      height: 75,
-                      width: 75,
+                      height: MediaQuery.of(context).size.height * 0.1,
+                      width: MediaQuery.of(context).size.width * 0.208,
                       color: Colors.purple
                     ),
                    ],
                   ),
                   Container(
-                    height: 75,
+                    height: MediaQuery.of(context).size.height * 0.1,
                     color: Colors.blue
                   )
                 ],

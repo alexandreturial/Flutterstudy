@@ -63,7 +63,7 @@ class Exercicio1 extends StatelessWidget {
             )
           ),
           Container(
-              height: 110,
+              height: 80,
               decoration: BoxDecoration(
                 color: Color(0xFF274060),
                 boxShadow: [
@@ -78,29 +78,20 @@ class Exercicio1 extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Container(
-                    height: 35,
-                    width: 35,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(50)
-                    )
+                  Icon(
+                    Icons.home,
+                    color: Colors.white,
+                    size: 30,
                   ),
-                  Container(
-                   height: 35,
-                    width: 35,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(50)
-                    )
+                  Icon(
+                    Icons.star,
+                    color: Colors.white,
+                    size: 30,
                   ),
-                  Container(
-                    height: 35,
-                    width: 35,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(50)
-                    )
+                  Icon(
+                    Icons.list,
+                    color: Colors.white,
+                    size: 30,
                   ),
                 ],
               ))

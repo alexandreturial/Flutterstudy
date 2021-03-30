@@ -1,4 +1,4 @@
-import 'package:aula_1/Exercicios/exercicio_1.dart';
+import 'package:aula_1/aula02/Aulas/exercicio_2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Exercicio1()
+      home: Exercicio2()
     );
   }
 }
