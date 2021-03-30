@@ -78,14 +78,12 @@ class IconItemMenu extends StatelessWidget {
 class ColorFullContainer extends StatelessWidget {
   final double height;
   final Color color;
-  final Widget child;
   final double margin;
 
   ColorFullContainer({
     Key key,
     this.height,
     this.color,
-    this.child,
     this.margin = 0,
   }) : super(key: key);
 
@@ -105,6 +103,6 @@ class ColorFullContainer extends StatelessWidget {
             ),
           ],
         ),
-        child: child);
+      );
   }
 }
